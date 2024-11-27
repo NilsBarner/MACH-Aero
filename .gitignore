@@ -3,4 +3,3 @@ _build
 *.cgns
 .vscode/*
 make.bat
-my_tutorial/

@@ -1,0 +1,549 @@
+----- Message log saved by nmb48@WL-2022-CDT02 at Tue Nov 26 20:56:27 GMT Standard Time 2024
+ICEM CFD 2024 R2
+Checked out ansyslmd feature cfd_preppost, cfd_preppost_pro, cfd_base (product CFD PrepPost, CFD PrepPost Pro, CFD Base) from server 1055@diva-lmserv.eng.cam.ac.uk
+Customer number is 411676
+Loading geometry file "C:/Users/nmb48/OneDrive - University of Cambridge/Documents/GitHub/MACH-Aero/my_tutorial/aero/meshing/surface/wing.tin"
+Changed invalid part name "surface_0" to "SURFACE_0".
+Changed invalid part name "surface_1" to "SURFACE_1".
+Changed invalid part name "surface_2" to "SURFACE_2".
+Changed invalid part name "surface_3" to "SURFACE_3".
+Changed invalid part name "surface_4" to "SURFACE_4".
+Current Coordinate system is global
+
+--- Geometry Info ---
+5 surfaces
+5 parts
+Element parts :
+        SURFACE_0 : 1
+        SURFACE_1 : 1
+        SURFACE_2 : 1
+        SURFACE_3 : 1
+        SURFACE_4 : 1
+Selecting geometry.
+5 entities
+Selecting geometry.
+Using default topo tolerance
+0 entities
+
+10 vertices merged, merge tol = 0.008000
+0 points created intersecting curves
+7 curves merged
+1 degenerate surfaces disconnected from topology
+0 surfaces merged
+
+Build topology completed.
+3 curves
+Done:points {pnt.00 pnt.01} {pnt.02 pnt.03} {pnt.04 pnt.05}
+0 curves
+
+Done:curves crv.00
+
+Done:curves crv.01
+
+Done:curves crv.02
+1 curve
+Done:points pnt.06
+1 curve
+Done:points pnt.07
+1 curve
+Done:points pnt.08
+1 curve
+Done:points pnt.09
+1 curve
+Done:points pnt.10
+1 curve
+Done:points pnt.11
+0 curve
+
+Done:curves crv.03
+
+Done:curves crv.04
+28 entities
+
+Initialize blocking done
+0 entities
+Blocking successfully converted to 2D
+
+Number of blocks:
+        All blocks: 6
+        Mapped blocks: 6
+
+
+Mesh size:
+        NODES = 320
+        QUADS = 318
+
+1 new O-grid index defined
+Selected 1 block
+Block(s): 3 moved to VORFN
+Undo of change_element_id complete
+Undo of mark_blocks complete
+Undo of mark_blocks complete
+Selected 1 block
+Block(s): 3 deleted permanently
+1 new O-grid index defined
+Selected 1 vertex
+1 point
+Done "Vertex -> Point" association
+Undo of move_node complete
+Selected 1 vertex
+0 point
+Selected 1 vertex
+1 point
+Done "Vertex -> Point" association
+Undo of move_node complete
+Selected 1 vertex
+0 point
+Selected 1 vertex
+1 point
+Done "Vertex -> Point" association
+Selected 1 vertex
+1 point
+Done "Vertex -> Point" association
+Selected 1 vertex
+1 point
+Done "Vertex -> Point" association
+Selected 1 vertex
+1 point
+Done "Vertex -> Point" association
+Selected 1 vertex
+1 point
+Done "Vertex -> Point" association
+Selected 1 vertex
+1 point
+Done "Vertex -> Point" association
+Selected 1 vertex
+1 point
+Done "Vertex -> Point" association
+Selected 1 vertex
+1 point
+Done "Vertex -> Point" association
+Selected 1 edge
+Selected 1 compcurve
+Done "Edge -> Curve" association
+Selected 1 edge
+Selected 1 compcurve
+Done "Edge -> Curve" association
+Selected 1 edge
+Selected 2 compcurves
+Grouped curves: surf.0e2 surf.1e6
+Done "Edge -> Curve" association
+Selected 1 edge
+Selected 1 compcurve
+Done "Edge -> Curve" association
+Selected 1 edge
+Selected 1 compcurve
+Done "Edge -> Curve" association
+Selected 1 edge
+Selected 2 compcurves
+Grouped curves: surf.0e0 surf.1e4
+Done "Edge -> Curve" association
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+Already in edge select mode
+Already in select mode
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+Undo of split_edge complete
+Undo of split_edge complete
+Redo of split_edge complete
+Redo of split_edge complete
+Undo of split_edge complete
+Undo of split_edge complete
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+Visible images:
+    min: 3.44108e-011 -0.341342 -0.0499376
+    max: 9.00032 0.360171 14.0425
+Data objects:
+    min: 3.44108e-011 -0.341342 -0.0499376
+    max: 9.00032 0.360171 14.0425
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+Selected 1 edge
+Undo of split_edge complete
+Redo of split_edge complete
+Nothing to be redone
+Nothing to be redone
+Nothing to be redone
+Nothing to be redone
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+Selected 1 edge
+Selected 1 edge
+Selected 1 edge
+Selected 1 edge
+Visible images:
+    min: 3.44108e-011 -0.341342 -0.0499376
+    max: 9.00032 0.360171 14.0425
+Data objects:
+    min: 3.44108e-011 -0.341342 -0.0499376
+    max: 9.00032 0.360171 14.0425
+Selected 1 edge
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+
+
+
+
+
+Criterion: Determinant 3x3x3
+
+0 -> 0.05 : 0 (0.000%)
+0.05 -> 0.1 : 0 (0.000%)
+0.1 -> 0.15 : 0 (0.000%)
+0.15 -> 0.2 : 0 (0.000%)
+0.2 -> 0.25 : 0 (0.000%)
+0.25 -> 0.3 : 0 (0.000%)
+0.3 -> 0.35 : 0 (0.000%)
+0.35 -> 0.4 : 0 (0.000%)
+0.4 -> 0.45 : 0 (0.000%)
+0.45 -> 0.5 : 0 (0.000%)
+0.5 -> 0.55 : 0 (0.000%)
+0.55 -> 0.6 : 0 (0.000%)
+0.6 -> 0.65 : 0 (0.000%)
+0.65 -> 0.7 : 0 (0.000%)
+0.7 -> 0.75 : 0 (0.000%)
+0.75 -> 0.8 : 3 (0.005%)
+0.8 -> 0.85 : 12 (0.020%)
+0.85 -> 0.9 : 30 (0.051%)
+0.9 -> 0.95 : 485 (0.824%)
+0.95 -> 1 : 58350 (99.100%)
+Pre-Mesh quality criterion: Determinant 3x3x3 (Min 0.761 Max 1)
+
+
+	0.8 -> 0.85, 12 values
+
+Total number of elements: 12
+	0.85 -> 0.9, 30 values
+
+Total number of elements: 42
+	0.9 -> 0.95, 485 values
+
+Total number of elements: 527
+	0.95 -> 1, 58350 values
+
+Total number of elements: 58877
+	0.8 -> 0.85, 12 values
+
+Total number of elements: 58865
+	0.85 -> 0.9, 30 values
+
+Total number of elements: 58835
+	0.9 -> 0.95, 485 values
+
+Total number of elements: 58350
+	0.95 -> 1, 58350 values
+	0.95 -> 1, 58350 values
+
+Total number of elements: 58350
+	0.95 -> 1, 58350 values
+	0.8 -> 0.85, 12 values
+
+Total number of elements: 12
+	0.8 -> 0.85, 12 values
+	0.8 -> 0.85, 12 values
+
+Total number of elements: 12
+	0.85 -> 0.9, 30 values
+
+Total number of elements: 42
+	0.9 -> 0.95, 485 values
+
+Total number of elements: 527
+	0.95 -> 1, 58350 values
+
+Total number of elements: 58877
+
+
+Selected 1 edge
+Split value: 0.998429
+Split block done
+Selected 1 edge
+Selected 1 edge
+Selected 1 edge
+Selected 1 edge
+Selected 1 edge
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+
+
+
+
+
+Criterion: Determinant 3x3x3
+
+0 -> 0.05 : 69 (0.107%)
+0.05 -> 0.1 : 41 (0.064%)
+0.1 -> 0.15 : 25 (0.039%)
+0.15 -> 0.2 : 17 (0.026%)
+0.2 -> 0.25 : 25 (0.039%)
+0.25 -> 0.3 : 36 (0.056%)
+0.3 -> 0.35 : 28 (0.044%)
+0.35 -> 0.4 : 53 (0.083%)
+0.4 -> 0.45 : 44 (0.069%)
+0.45 -> 0.5 : 43 (0.067%)
+0.5 -> 0.55 : 37 (0.058%)
+0.55 -> 0.6 : 63 (0.098%)
+0.6 -> 0.65 : 77 (0.120%)
+0.65 -> 0.7 : 93 (0.145%)
+0.7 -> 0.75 : 118 (0.184%)
+0.75 -> 0.8 : 163 (0.254%)
+0.8 -> 0.85 : 329 (0.513%)
+0.85 -> 0.9 : 950 (1.480%)
+0.9 -> 0.95 : 3606 (5.617%)
+0.95 -> 1 : 58377 (90.938%)
+Pre-Mesh quality criterion: Determinant 3x3x3 (Min -1 Max 1)
+Visible images:
+    min: 5.4121e-006 -0.341342 -0.0499376
+    max: 9.00032 0.360171 14.0425
+Data objects:
+    min: 5.4121e-006 -0.341342 -0.0499376
+    max: 9.00032 0.360171 14.0425
+Undo of set_mesh complete
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+
+
+
+
+
+Criterion: Determinant 3x3x3
+
+0 -> 0.05 : 62 (0.097%)
+0.05 -> 0.1 : 39 (0.061%)
+0.1 -> 0.15 : 19 (0.030%)
+0.15 -> 0.2 : 16 (0.025%)
+0.2 -> 0.25 : 20 (0.031%)
+0.25 -> 0.3 : 34 (0.053%)
+0.3 -> 0.35 : 29 (0.045%)
+0.35 -> 0.4 : 52 (0.081%)
+0.4 -> 0.45 : 42 (0.065%)
+0.45 -> 0.5 : 43 (0.067%)
+0.5 -> 0.55 : 34 (0.053%)
+0.55 -> 0.6 : 62 (0.097%)
+0.6 -> 0.65 : 73 (0.114%)
+0.65 -> 0.7 : 86 (0.134%)
+0.7 -> 0.75 : 118 (0.184%)
+0.75 -> 0.8 : 160 (0.249%)
+0.8 -> 0.85 : 311 (0.484%)
+0.85 -> 0.9 : 912 (1.420%)
+0.9 -> 0.95 : 3412 (5.314%)
+0.95 -> 1 : 58687 (91.397%)
+Pre-Mesh quality criterion: Determinant 3x3x3 (Min -1 Max 1)
+Undo of set_mesh complete
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+
+
+
+
+
+Criterion: Determinant 3x3x3
+
+0 -> 0.05 : 21 (0.253%)
+0.05 -> 0.1 : 45 (0.542%)
+0.1 -> 0.15 : 83 (1.000%)
+0.15 -> 0.2 : 45 (0.542%)
+0.2 -> 0.25 : 41 (0.494%)
+0.25 -> 0.3 : 65 (0.783%)
+0.3 -> 0.35 : 50 (0.603%)
+0.35 -> 0.4 : 66 (0.795%)
+0.4 -> 0.45 : 55 (0.663%)
+0.45 -> 0.5 : 54 (0.651%)
+0.5 -> 0.55 : 48 (0.579%)
+0.55 -> 0.6 : 74 (0.892%)
+0.6 -> 0.65 : 82 (0.988%)
+0.65 -> 0.7 : 94 (1.133%)
+0.7 -> 0.75 : 126 (1.519%)
+0.75 -> 0.8 : 164 (1.977%)
+0.8 -> 0.85 : 315 (3.797%)
+0.85 -> 0.9 : 893 (10.763%)
+0.9 -> 0.95 : 3075 (37.062%)
+0.95 -> 1 : 2901 (34.964%)
+Pre-Mesh quality criterion: Determinant 3x3x3 (Min -1 Max 1)
+Undo of set_mesh complete
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+
+
+
+
+
+Criterion: Determinant 3x3x3
+
+0 -> 0.05 : 21 (0.253%)
+0.05 -> 0.1 : 45 (0.542%)
+0.1 -> 0.15 : 83 (1.000%)
+0.15 -> 0.2 : 45 (0.542%)
+0.2 -> 0.25 : 41 (0.494%)
+0.25 -> 0.3 : 65 (0.783%)
+0.3 -> 0.35 : 50 (0.603%)
+0.35 -> 0.4 : 66 (0.795%)
+0.4 -> 0.45 : 55 (0.663%)
+0.45 -> 0.5 : 54 (0.651%)
+0.5 -> 0.55 : 48 (0.579%)
+0.55 -> 0.6 : 74 (0.892%)
+0.6 -> 0.65 : 82 (0.988%)
+0.65 -> 0.7 : 94 (1.133%)
+0.7 -> 0.75 : 126 (1.519%)
+0.75 -> 0.8 : 164 (1.977%)
+0.8 -> 0.85 : 315 (3.797%)
+0.85 -> 0.9 : 893 (10.763%)
+0.9 -> 0.95 : 3075 (37.062%)
+0.95 -> 1 : 2901 (34.964%)
+Pre-Mesh quality criterion: Determinant 3x3x3 (Min -1 Max 1)
+Redo of set_mesh complete
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+
+
+
+
+
+Criterion: Determinant 3x3x3
+
+0 -> 0.05 : 21 (0.253%)
+0.05 -> 0.1 : 45 (0.542%)
+0.1 -> 0.15 : 83 (1.000%)
+0.15 -> 0.2 : 45 (0.542%)
+0.2 -> 0.25 : 41 (0.494%)
+0.25 -> 0.3 : 65 (0.783%)
+0.3 -> 0.35 : 50 (0.603%)
+0.35 -> 0.4 : 66 (0.795%)
+0.4 -> 0.45 : 55 (0.663%)
+0.45 -> 0.5 : 54 (0.651%)
+0.5 -> 0.55 : 48 (0.579%)
+0.55 -> 0.6 : 74 (0.892%)
+0.6 -> 0.65 : 82 (0.988%)
+0.65 -> 0.7 : 94 (1.133%)
+0.7 -> 0.75 : 126 (1.519%)
+0.75 -> 0.8 : 164 (1.977%)
+0.8 -> 0.85 : 315 (3.797%)
+0.85 -> 0.9 : 893 (10.763%)
+0.9 -> 0.95 : 3075 (37.062%)
+0.95 -> 1 : 2901 (34.964%)
+Pre-Mesh quality criterion: Determinant 3x3x3 (Min -1 Max 1)
+Redo of set_mesh complete
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+
+
+
+
+
+Criterion: Determinant 3x3x3
+
+0 -> 0.05 : 62 (0.097%)
+0.05 -> 0.1 : 39 (0.061%)
+0.1 -> 0.15 : 19 (0.030%)
+0.15 -> 0.2 : 16 (0.025%)
+0.2 -> 0.25 : 20 (0.031%)
+0.25 -> 0.3 : 34 (0.053%)
+0.3 -> 0.35 : 29 (0.045%)
+0.35 -> 0.4 : 52 (0.081%)
+0.4 -> 0.45 : 42 (0.065%)
+0.45 -> 0.5 : 43 (0.067%)
+0.5 -> 0.55 : 34 (0.053%)
+0.55 -> 0.6 : 62 (0.097%)
+0.6 -> 0.65 : 73 (0.114%)
+0.65 -> 0.7 : 86 (0.134%)
+0.7 -> 0.75 : 118 (0.184%)
+0.75 -> 0.8 : 160 (0.249%)
+0.8 -> 0.85 : 311 (0.484%)
+0.85 -> 0.9 : 912 (1.420%)
+0.9 -> 0.95 : 3412 (5.314%)
+0.95 -> 1 : 58687 (91.397%)
+Pre-Mesh quality criterion: Determinant 3x3x3 (Min -1 Max 1)
+Redo of set_mesh complete
+Number of processors = 1
+Recompute pre-mesh...
+Done recompute pre-mesh
+
+
+
+
+
+Criterion: Determinant 3x3x3
+
+0 -> 0.05 : 69 (0.107%)
+0.05 -> 0.1 : 41 (0.064%)
+0.1 -> 0.15 : 25 (0.039%)
+0.15 -> 0.2 : 17 (0.026%)
+0.2 -> 0.25 : 25 (0.039%)
+0.25 -> 0.3 : 36 (0.056%)
+0.3 -> 0.35 : 28 (0.044%)
+0.35 -> 0.4 : 53 (0.083%)
+0.4 -> 0.45 : 44 (0.069%)
+0.45 -> 0.5 : 43 (0.067%)
+0.5 -> 0.55 : 37 (0.058%)
+0.55 -> 0.6 : 63 (0.098%)
+0.6 -> 0.65 : 77 (0.120%)
+0.65 -> 0.7 : 93 (0.145%)
+0.7 -> 0.75 : 118 (0.184%)
+0.75 -> 0.8 : 163 (0.254%)
+0.8 -> 0.85 : 329 (0.513%)
+0.85 -> 0.9 : 950 (1.480%)
+0.9 -> 0.95 : 3606 (5.617%)
+0.95 -> 1 : 58377 (90.938%)
+Pre-Mesh quality criterion: Determinant 3x3x3 (Min -1 Max 1)
+Nothing to be redone
+Nothing to be redone
+Nothing to be redone
+Nothing to be redone
+Selected 1 edge
+Selected 1 edge
+Selected 1 edge
+	0 -> 0.05, 69 values
+
+Total number of elements: 69
+	0.05 -> 0.1, 41 values
+
+Total number of elements: 110
+	0.05 -> 0.1, 41 values
+
+Total number of elements: 69
+	0.1 -> 0.15, 25 values
+
+Total number of elements: 94
+	0.05 -> 0.1, 41 values
+
+Total number of elements: 135
+	0.15 -> 0.2, 17 values
+
+Total number of elements: 152
+	0.95 -> 1, 58377 values
+
+Total number of elements: 58529
+	0.95 -> 1, 58377 values
+
+Total number of elements: 152
+Nothing to be redone
+Nothing to be redone
+Nothing to be redone
+
+
